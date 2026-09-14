@@ -1,0 +1,29 @@
+{
+  "name": "kisanbazar-monorepo",
+  "version": "1.0.0",
+  "description": "KisanBazar - Full-stack Agri-Tech SaaS Platform connecting Farmers and Consumers directly (No Middlemen)",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm install --prefix api && npm install --prefix client",
+    "install:all": "npm run postinstall",
+    "build": "npm run build --prefix client",
+    "start": "npm start --prefix api",
+    "dev:api": "npm run dev --prefix api",
+    "dev:client": "npm run dev --prefix client",
+    "build:client": "npm run build --prefix client",
+    "start:api": "npm start --prefix api"
+  },
+  "keywords": [
+    "saas",
+    "agritech",
+    "farmer",
+    "marketplace",
+    "react",
+    "express",
+    "mongodb",
+    "voice-assistant",
+    "multilingual"
+  ],
+  "author": "Student Developer",
+  "license": "MIT"
+}

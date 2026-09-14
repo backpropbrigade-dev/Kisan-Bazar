@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  # MongoDB Database Service
+  mongodb:
+    image: mongo:latest
+    container_name: kisanbazar_db
+    restart: always
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: kisanbazar
+    volumes:
+      - mongo_data:/data/db
+
+  # Node.js API Service
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: kisanbazar_api
+    restart: always
+    ports:
+      - "5000:5000"
+    environment:
+      - PORT=5000
+      - MONGODB_URI=mongodb://mongodb:27017/kisanbazar
+      - JWT_SECRET=kisanbazar_super_secret_jwt_key_2026
+      - NODE_ENV=production
+    depends_on:
+      - mongodb
+
+volumes:
+  mongo_data:
