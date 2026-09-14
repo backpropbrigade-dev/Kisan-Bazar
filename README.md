@@ -116,23 +116,7 @@ git push origin main
 └── README.md
 ```
 
----
-
-## 📄 Final Year Resume & Portfolio Showcase Tips
-
-When adding **KisanBazar** to your Resume or LinkedIn Profile:
-
-- **Project Title**: KisanBazar - Direct Farmer-to-Consumer Agri-Tech SaaS Platform
-- **Live Demo Link**: `https://your-app.vercel.app`
-- **Source Code**: `https://github.com/yourusername/kisanbazar`
-- **Key Bullet Points for Resume**:
-  - Developed a full-stack Agri-Tech SaaS platform connecting farmers directly to consumers, eliminating middlemen overhead.
-  - Implemented browser-native **Multilingual Voice Assistant** supporting 28+ Indian languages (Telugu, Hindi, Tamil, etc.) for digital accessibility.
-  - Designed role-based authentication (Farmer/Consumer/Admin) with 1-click demo logins, Redux Toolkit state management, and MongoDB Atlas persistence.
-  - Deployed microservices architecture on Vercel and Render free tiers with automated CI/CD pipeline.
-
----
 
 ## 🤝 Support & Contribution
 
-Fell free to star ⭐️ the repository and connect on [LinkedIn](https://linkedin.com) or inspect code on [GitHub](https://github.com)!
+Fell free to star ⭐️ the repository and connect on [LinkedIn](https://www.linkedin.com/in/gnanaganeshanem/)!
